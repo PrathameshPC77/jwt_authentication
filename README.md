@@ -99,36 +99,37 @@ If you prefer to manually test the API endpoints, follow these steps:
 
 1. User Registration
 
-    Method: POST
+    - **Method:** POST
    
-    URL: http://127.0.0.1:8000/api/user/resgister/
+    - **URL:** http://127.0.0.1:8000/api/user/resgister/
    
-    Body: Send JSON data with username, password, and email fields.
+    - **Body:** Send JSON data with username, password, and email fields.
   
-3. User Login
+2. User Login
 
-    Method: POST
-    URL: http://127.0.0.1:8000/api/user/login/
+    - **Method:** POST
+
+    - **URL:** http://127.0.0.1:8000/api/user/login/
    
-    Body: Send JSON data with username and password fields.
+    - **Body:** Send JSON data with username and password fields.
    
-    Response: You will receive an access token and a refresh token.
+    - **Response:** You will receive an access token and a refresh token.
   
-5. Access Protected Endpoints
+3. Access Protected Endpoints
 
-    Method: GET (or other HTTP methods depending on the endpoint)
+    - **Method:** GET (or other HTTP methods depending on the endpoint)
    
-    URL: http://127.0.0.1:8000/api/user/profile/
+    - **URL:** http://127.0.0.1:8000/api/user/profile/
    
-    Header: Include the JWT token in the Authorization header as Bearer <access_token>.
+    - **Header:** Include the JWT token in the Authorization header as Bearer <access_token>.
 
-7. Token Refresh
+4. Token Refresh
 
-    Method: POST
+    - **Method:** POST
    
-    URL: http://127.0.0.1:8000/api/token/refresh/
+    - **URL:** http://127.0.0.1:8000/api/token/refresh/
    
-    Body: Send JSON data with the refresh token to obtain a new access token.
+    - **Body:** Send JSON data with the refresh token to obtain a new access token.
 
 ## Deployment
    To deploy this application, follow the platform-specific deployment instructions. Ensure that you have configured the environment variables and database settings as needed.
