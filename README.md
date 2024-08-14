@@ -18,7 +18,7 @@ This project demonstrates the implementation of JSON Web Token (JWT) based authe
 ### Prerequisites
 
 - Python 3.12.4 (recommended)
-- Django 4.2.2 or higher (5.0.8 recommended)
+- Django 4.2.2 or higher (5.1 recommended)
 - Django Rest Framework
 - SimpleJWT
 - Virtual Environment (recommended)
@@ -33,18 +33,18 @@ This project demonstrates the implementation of JSON Web Token (JWT) based authe
 2. **Navigate to the Project Directory**
 
    ```bash
-    cd jwt_authentication
+   cd jwt_authentication
 
 3. **Create and Activate a Virtual Environment**
 
     ```bash
-      python -m venv venv
-      source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 4. **Install Dependencies**
 
    ```bash
-    pip install -r requirements.txt
+   pip install -r requirements.txt
 
 5. **Apply Database Migrations**
 
