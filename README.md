@@ -131,13 +131,13 @@ If you prefer to manually test the API endpoints, follow these steps:
     Body: Send JSON data with the refresh token to obtain a new access token.
 
 ## Deployment
-    To deploy this application, follow the platform-specific deployment instructions. Ensure that you have configured the environment variables and database settings as needed.
+   To deploy this application, follow the platform-specific deployment instructions. Ensure that you have configured the environment variables and database settings as needed.
 
 ## Contributing
-    Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
+   Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
 
 ## License
-    This project is licensed under the MIT License. See the LICENSE file for details.
+   This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
-    For any questions or issues, please contact Prathamesh Chikankar at prathu3322@gmail.com.
+   For any questions or issues, please contact Prathamesh Chikankar at prathu3322@gmail.com.
