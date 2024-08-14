@@ -4,14 +4,13 @@
 
 This project demonstrates the implementation of JSON Web Token (JWT) based authentication in a Django application. It provides secure login, registration, password reset via email, and token-based authentication mechanisms, ensuring that only authorized users can access protected resources.
 
-![password reset mail](https://github.com/PrathameshPC77/jwt_authentication/blob/main/password%20reset%20mail.png)
-
 
 ## Features
 
 - **User Registration**: Allows users to create an account.
 - **User Login**: Generates a JWT token upon successful login.
 - **Password Reset via Email**: Allows users to reset their password using an email link.
+  ![password reset mail](https://github.com/PrathameshPC77/jwt_authentication/blob/main/password%20reset%20mail.png)
 - **Token Authentication**: Protects API endpoints using JWT tokens.
 - **Token Refresh**: Provides a mechanism to refresh JWT tokens.
 - **Protected Routes**: Access control for specific API endpoints using token authentication.
