@@ -103,7 +103,7 @@ If you prefer to manually test the API endpoints, follow these steps:
    
     - **URL:** http://127.0.0.1:8000/api/user/resgister/
    
-    - **Body:** Send JSON data with username, password, and email fields.
+    - **Body:** Send JSON data with username, password, email and all necessary fields.
   
 2. User Login
 
