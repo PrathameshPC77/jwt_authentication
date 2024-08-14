@@ -2,12 +2,13 @@
 
 ## Overview
 
-This project demonstrates the implementation of JSON Web Token (JWT) based authentication in a Django application. It provides secure login, registration, and token-based authentication mechanisms, ensuring that only authorized users can access protected resources.
+This project demonstrates the implementation of JSON Web Token (JWT) based authentication in a Django application. It provides secure login, registration, password reset via email, and token-based authentication mechanisms, ensuring that only authorized users can access protected resources.
 
 ## Features
 
 - **User Registration**: Allows users to create an account.
 - **User Login**: Generates a JWT token upon successful login.
+- **Password Reset via Email**: Allows users to reset their password using an email link.
 - **Token Authentication**: Protects API endpoints using JWT tokens.
 - **Token Refresh**: Provides a mechanism to refresh JWT tokens.
 - **Protected Routes**: Access control for specific API endpoints using token authentication.
@@ -60,7 +61,7 @@ This project demonstrates the implementation of JSON Web Token (JWT) based authe
     ```bash
     python manage.py runserver
 
-8. ** Access the Application**
+8. **Access the Application**
 
     Open your web browser and go to http://127.0.0.1:8000/ to access the API or http://127.0.0.1:8000/admin/ for the admin interface.
 
@@ -68,6 +69,8 @@ This project demonstrates the implementation of JSON Web Token (JWT) based authe
   `JWT Settings:` The JWT settings can be configured in settings.py to customize the token lifetime, refresh behavior, and other options.
 
   `Database:` This project uses SQLite by default. You can configure a different database in settings.py if needed.
+
+   `Email Settings:` Configure the email backend in settings.py to enable password reset via email. For example, you can use SMTP with Gmail or any other email service provider.
 
 ## API Testing with Postman
 ### Importing the Postman Collection
@@ -78,13 +81,17 @@ This project demonstrates the implementation of JSON Web Token (JWT) based authe
 2. Import the Collection into Postman
 
     Open Postman.
+   
     Click on the "Import" button in the top left corner.
-    Choose the file option and select the Postman collection file (e.g., jwt_authentication.postman_collection.json).
+   
+    Choose the file option and select the Postman collection file (e.g., djangojwtauthapi.postman_collection.json).
+   
     Click "Import."
    
-3. Use the Collection
+4. Use the Collection
 
     Once imported, you'll see the collection in your Postman app.
+   
     You can now test the API endpoints as defined in the collection.
    
 ## Manual API Testing
