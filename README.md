@@ -100,26 +100,34 @@ If you prefer to manually test the API endpoints, follow these steps:
 1. User Registration
 
     Method: POST
+   
     URL: http://127.0.0.1:8000/api/user/resgister/
+   
     Body: Send JSON data with username, password, and email fields.
   
-2. User Login
+3. User Login
 
     Method: POST
     URL: http://127.0.0.1:8000/api/user/login/
+   
     Body: Send JSON data with username and password fields.
+   
     Response: You will receive an access token and a refresh token.
   
-3. Access Protected Endpoints
+5. Access Protected Endpoints
 
     Method: GET (or other HTTP methods depending on the endpoint)
+   
     URL: http://127.0.0.1:8000/api/user/profile/
+   
     Header: Include the JWT token in the Authorization header as Bearer <access_token>.
 
-4. Token Refresh
+7. Token Refresh
 
     Method: POST
+   
     URL: http://127.0.0.1:8000/api/token/refresh/
+   
     Body: Send JSON data with the refresh token to obtain a new access token.
 
 ## Deployment
