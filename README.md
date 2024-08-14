@@ -63,7 +63,7 @@ This project demonstrates the implementation of JSON Web Token (JWT) based authe
 
 8. **Access the Application**
 
-    Open your web browser and go to http://127.0.0.1:8000/ to access the API or http://127.0.0.1:8000/admin/ for the admin interface.
+    Open your web browser and go to http://127.0.0.1:8000/admin/ for the admin interface.
 
 ## Configuration
   `JWT Settings:` The JWT settings can be configured in settings.py to customize the token lifetime, refresh behavior, and other options.
